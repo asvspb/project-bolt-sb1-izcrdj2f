@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="40" viewBox="0 0 200 40">
+  <!-- Фоновый прямоугольник для логотипа -->
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF4B4B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B30000;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Иконка -->
+  <g transform="translate(0, 4) scale(0.8)">
+    <rect x="2" y="2" width="28" height="28" rx="4" fill="url(#logoGrad)"/>
+    <path d="M10 8h8a4 4 0 0 1 4 4v0a4 4 0 0 1-4 4h-8v8h-2V8h2zm0 6h8a2 2 0 0 0 2-2v0a2 2 0 0 0-2-2h-8v4z" fill="white"/>
+    <circle cx="22" cy="20" r="2" fill="white"/>
+  </g>
+  
+  <!-- Текст логотипа (темный) -->
+  <text x="40" y="25" font-family="Arial, sans-serif" font-weight="bold" font-size="20" fill="#213547">
+    Rutube Parser
+  </text>
+</svg>
